@@ -1,0 +1,8 @@
+# dbt looks for this file in the project folder first, so no extra setup is needed.
+marketing_performance:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: marketing.duckdb
+      threads: 4

@@ -1,0 +1,34 @@
+campaign_id,client_id,channel,objective,campaign_name,start_date,end_date
+CMP0001,C001,Property Portal,Lead Gen,Property Lead Gen 01,2026-02-03,2026-08-15
+CMP0002,C001,google ads,Brand Awareness,Google Brand Awareness 02,2026-04-01,2026-05-31
+CMP0003,C001,LinkedIn Ads,Lead Gen,LinkedIn Lead Gen 03,2026-03-14,2026-08-31
+CMP0004,C001,google ads,Lead Gen,Google Lead Gen 04,2026-04-17,2026-08-26
+CMP0005,C001,Facebook/Instagram,Brand Awareness,Meta Brand Awareness 05,2026-01-09,2026-07-17
+CMP0006,C001,Facebook/Instagram,Brand Awareness,Meta Brand Awareness 06,2026-01-02,2026-04-06
+CMP0007,C002,Meta Ads,Lead Gen,Meta Lead Gen 07,2025-12-28,2026-03-03
+CMP0008,C002,Facebook,Brand Awareness,Meta Brand Awareness 08,2026-01-11,2026-07-21
+CMP0009,C002,Facebook/Instagram,Lead Gen,Meta Lead Gen 09,2025-12-15,2026-03-24
+CMP0010,C003,Google,Lead Gen,Google Lead Gen 10,2026-03-26,2026-06-26
+CMP0011,C003,Google Ads,Brand Awareness,Google Brand Awareness 11,2025-12-13,2026-05-28
+CMP0012,C003,Google,Brand Awareness,Google Brand Awareness 12,2025-11-07,2026-03-28
+CMP0013,C004,Meta Ads,Lead Gen,Meta Lead Gen 13,2026-01-03,2026-03-18
+CMP0014,C004,Facebook,Brand Awareness,Meta Brand Awareness 14,2026-01-17,2026-07-05
+CMP0015,C004,Facebook,Lead Gen,Meta Lead Gen 15,2026-02-10,2026-06-12
+CMP0016,C004,google ads,Brand Awareness,Google Brand Awareness 16,2025-12-04,2026-04-07
+CMP0017,C004,Property Portal,Lead Gen,Property Lead Gen 17,2025-12-27,2026-06-01
+CMP0018,C004,LinkedIn,Lead Gen,LinkedIn Lead Gen 18,2026-02-05,2026-07-04
+CMP0019,C005,Facebook/Instagram,Lead Gen,Meta Lead Gen 19,2025-11-17,2026-03-21
+CMP0020,C005,google ads,Lead Gen,Google Lead Gen 20,2025-10-03,2026-01-19
+CMP0021,C005,linkedin ads,Lead Gen,LinkedIn Lead Gen 21,2026-03-24,2026-08-31
+CMP0022,C005,Property Portal,Brand Awareness,Property Brand Awareness 22,2026-04-11,2026-08-31
+CMP0023,C006,Google Ads,Brand Awareness,Google Brand Awareness 23,2025-11-19,2026-04-16
+CMP0024,C006,Portal,Lead Gen,Property Lead Gen 24,2025-11-06,2026-04-08
+CMP0025,C006,Facebook/Instagram,Lead Gen,Meta Lead Gen 25,2025-11-12,2026-02-18
+CMP0026,C007,Property Portal,Lead Gen,Property Lead Gen 26,2026-03-02,2026-07-27
+CMP0027,C007,LinkedIn,Lead Gen,LinkedIn Lead Gen 27,2025-12-04,2026-05-28
+CMP0028,C007,Google Ads,Lead Gen,Google Lead Gen 28,2025-12-23,2026-07-25
+CMP0029,C008,Facebook/Instagram,Lead Gen,Meta Lead Gen 29,2025-12-26,2026-07-13
+CMP0030,C008,Facebook,Lead Gen,Meta Lead Gen 30,2025-12-08,2026-06-24
+CMP0031,C008,Facebook/Instagram,Lead Gen,Meta Lead Gen 31,2026-03-07,2026-08-31
+CMP0032,C008,Portal,Lead Gen,Property Lead Gen 32,2025-10-31,2026-04-01
+CMP0033,C008,Portal,Lead Gen,Property Lead Gen 33,2026-03-19,2026-07-24

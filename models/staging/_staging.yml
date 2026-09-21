@@ -1,0 +1,64 @@
+version: 2
+
+models:
+  - name: stg_clients
+    description: One row per client the agency serves.
+    columns:
+      - name: client_id
+        tests: [unique, not_null]
+      - name: segment
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['Developer', 'Contractor', 'Supplier', 'Estate Agency']
+
+  - name: stg_campaigns
+    description: One row per campaign, with channel names standardised.
+    columns:
+      - name: campaign_id
+        tests: [unique, not_null]
+      - name: client_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_clients')
+                field: client_id
+      - name: channel
+        description: Standardised channel. 'Unmapped' means a new spelling needs adding to the mapping.
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['Google Ads', 'Meta Ads', 'LinkedIn Ads', 'Property Portal']
+
+  - name: stg_ad_performance
+    description: Daily ad spend and delivery per campaign, deduplicated and validated.
+    columns:
+      - name: campaign_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_campaigns')
+                field: campaign_id
+      - name: spend_zar
+        tests: [non_negative]
+      - name: impressions
+        tests: [non_negative]
+
+  - name: stg_leads
+    description: One row per lead, with the pipeline stage standardised.
+    columns:
+      - name: lead_id
+        tests: [unique, not_null]
+      - name: campaign_id
+        tests:
+          - relationships:
+              arguments:
+                to: ref('stg_campaigns')
+                field: campaign_id
+      - name: stage
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['New', 'Qualified', 'Proposal', 'Won', 'Lost']

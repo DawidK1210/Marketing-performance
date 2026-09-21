@@ -1,0 +1,36 @@
+name: marketing_performance
+version: "1.0.0"
+config-version: 2
+profile: marketing_performance
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+analysis-paths: ["analyses"]
+
+clean-targets: ["target", "dbt_packages"]
+
+seeds:
+  marketing_performance:
+    raw_clients:
+      +column_types:
+        onboarded_date: date
+    raw_campaigns:
+      +column_types:
+        start_date: date
+        end_date: date
+    raw_ad_performance:
+      +column_types:
+        report_date: date
+    raw_leads:
+      +column_types:
+        created_date: date
+        closed_date: date
+
+models:
+  marketing_performance:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table

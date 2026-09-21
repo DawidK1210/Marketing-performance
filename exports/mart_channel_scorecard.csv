@@ -1,0 +1,17 @@
+segment,channel,spend_zar,leads,won_deals,won_revenue_zar,cost_per_lead_zar,return_on_ad_spend,roas_rank_in_segment
+Contractor,Property Portal,430443.18000000005,1697,71,17514000,253.65,40.69,1
+Contractor,LinkedIn Ads,350308.74,238,17,4512400,1471.89,12.88,2
+Contractor,Meta Ads,738017.6399999999,1512,13,3787200,488.11,5.13,3
+Contractor,Google Ads,793682.5800000001,434,10,2721700,1828.76,3.43,4
+Estate Agency,Meta Ads,728839.74,1498,49,2006400,486.54,2.75,1
+Estate Agency,Property Portal,506635.22000000003,929,31,1161600,545.36,2.29,2
+Estate Agency,Google Ads,573688.6599999999,572,23,970300,1002.95,1.69,3
+Estate Agency,LinkedIn Ads,366933.95,148,10,460400,2479.28,1.25,4
+Developer,Property Portal,128759.08,271,4,4395800,475.13,34.14,1
+Developer,Google Ads,283228.92999999993,227,3,3381200,1247.7,11.94,2
+Developer,Meta Ads,1239647.6300000004,1073,10,6693100,1155.31,5.4,3
+Developer,LinkedIn Ads,443079.48999999993,123,0,0,3602.27,0.0,4
+Supplier,Meta Ads,451900.4,1293,44,2044800,349.5,4.52,1
+Supplier,Property Portal,601571.1399999999,729,49,1934500,825.2,3.22,2
+Supplier,Google Ads,244378.83,229,14,659700,1067.16,2.7,3
+Supplier,LinkedIn Ads,203039.37,126,11,521200,1611.42,2.57,4

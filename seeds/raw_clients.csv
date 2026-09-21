@@ -1,0 +1,9 @@
+client_id,client_name,segment,province,onboarded_date,monthly_retainer_zar
+C001,Apex Build Group,Developer,Gauteng,2025-06-01,18000
+C002,Ridgeview Developments,Developer,Gauteng,2025-07-15,15000
+C003,Stonecrest Construction,Contractor,Gauteng,2025-05-01,12000
+C004,Blueline Civils,Contractor,Western Cape,2025-08-01,12000
+C005,Ironwood Building Supplies,Supplier,Gauteng,2025-09-01,9000
+C006,Highveld Materials,Supplier,Mpumalanga,2025-09-15,9000
+C007,Savanna Estates,Estate Agency,Gauteng,2025-07-01,10000
+C008,Urban Nest Properties,Estate Agency,KwaZulu-Natal,2025-08-15,10000
